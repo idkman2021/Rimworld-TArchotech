@@ -1,4 +1,5 @@
 Please suggest new bodyparts, lore friendly descriptions and balance changes to https://docs.google.com/spreadsheets/d/1C8ZUiiHN1A1GNPjtF2BRTq81zq1cR2Mhpywnnn6uxx8/edit#gid=1564372084
+
 *Most current descriptions are placeholder and might not be lore friendly, some stats might be unbalanced
 
 1.2 mod that makes all vanilla archotech bionics have 200% efficiency, increases their cost accordingly, and adds a lot of new very rare and expensive archotech bionics with various stat boosts.
