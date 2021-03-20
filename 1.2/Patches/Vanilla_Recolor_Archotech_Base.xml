@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	
+  	<!-- Hediffs_BodyParts_Archotech.xml -->
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[@Name = "BodyPartArchotechBase"]/graphicData/color</xpath>
+				<value>
+					<color>(82,190,128)</color>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+</Patch>

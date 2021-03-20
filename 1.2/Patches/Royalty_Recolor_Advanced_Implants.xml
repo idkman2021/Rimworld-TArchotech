@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+  	<!-- Hediffs_BodyParts_Bionic_Empire.xml -->
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "Neurocalculator"]</xpath>
+				<value>
+					<defaultLabelColor>(144,98,179)</defaultLabelColor>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "LearningAssistant"]</xpath>
+				<value>
+					<defaultLabelColor>(144,98,179)</defaultLabelColor>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "GastroAnalyzer"]</xpath>
+				<value>
+					<defaultLabelColor>(144,98,179)</defaultLabelColor>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "Immunoenhancer"]</xpath>
+				<value>
+					<defaultLabelColor>(144,98,179)</defaultLabelColor>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "Coagulator"]</xpath>
+				<value>
+					<defaultLabelColor>(144,98,179)</defaultLabelColor>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "HealingEnhancer"]</xpath>
+				<value>
+					<defaultLabelColor>(144,98,179)</defaultLabelColor>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "ToughskinGland"]</xpath>
+				<value>
+					<defaultLabelColor>(144,98,179)</defaultLabelColor>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "ArmorskinGland"]</xpath>
+				<value>
+					<defaultLabelColor>(144,98,179)</defaultLabelColor>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "StoneskinGland"]</xpath>
+				<value>
+					<defaultLabelColor>(144,98,179)</defaultLabelColor>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "AestheticShaper"]</xpath>
+				<value>
+					<defaultLabelColor>(144,98,179)</defaultLabelColor>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "AestheticNose"]</xpath>
+				<value>
+					<defaultLabelColor>(144,98,179)</defaultLabelColor>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "LoveEnhancer"]</xpath>
+				<value>
+					<defaultLabelColor>(144,98,179)</defaultLabelColor>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "DetoxifierStomach"]</xpath>
+				<value>
+					<defaultLabelColor>(144,98,179)</defaultLabelColor>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "ReprocessorStomach"]</xpath>
+				<value>
+					<defaultLabelColor>(144,98,179)</defaultLabelColor>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "NuclearStomach"]</xpath>
+				<value>
+					<defaultLabelColor>(144,98,179)</defaultLabelColor>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "CircadianAssistant"]</xpath>
+				<value>
+					<defaultLabelColor>(144,98,179)</defaultLabelColor>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "CircadianHalfCycler"]</xpath>
+				<value>
+					<defaultLabelColor>(144,98,179)</defaultLabelColor>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+</Patch>
