@@ -1,3 +1,4 @@
+STEAM https://steamcommunity.com/sharedfiles/filedetails/?id=2488754345
 Please suggest new bodyparts, lore friendly descriptions and balance changes to https://discord.gg/dcVj4b5VwJ
 You can see all stats at https://docs.google.com/spreadsheets/d/1C8ZUiiHN1A1GNPjtF2BRTq81zq1cR2Mhpywnnn6uxx8/edit?usp=sharing
 
