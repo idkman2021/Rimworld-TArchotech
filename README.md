@@ -1,4 +1,5 @@
-Please suggest new bodyparts, lore friendly descriptions and balance changes to https://docs.google.com/spreadsheets/d/1C8ZUiiHN1A1GNPjtF2BRTq81zq1cR2Mhpywnnn6uxx8/edit#gid=1564372084
+Please suggest new bodyparts, lore friendly descriptions and balance changes to https://discord.gg/dcVj4b5VwJ
+You can see all stats at https://docs.google.com/spreadsheets/d/1C8ZUiiHN1A1GNPjtF2BRTq81zq1cR2Mhpywnnn6uxx8/edit?usp=sharing
 
 *All current descriptions and stats are placeholder because despite having 1500 hours I have no idea how stats work, and descriptions I wrote are just stupid.
 
