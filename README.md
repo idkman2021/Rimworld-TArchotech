@@ -1,3 +1,5 @@
+Press the green "Code" button at the top and "Download ZIP" to download the latest version
+
 STEAM https://steamcommunity.com/sharedfiles/filedetails/?id=2488754345
 
 Please suggest new bodyparts, lore friendly descriptions and balance changes to https://discord.gg/dcVj4b5VwJ
