@@ -1,22 +1,33 @@
 Press the green "Code" button at the top and "Download ZIP" to download the latest version
 
-STEAM https://steamcommunity.com/sharedfiles/filedetails/?id=2488754345
+**I am banned on steam community, so I can't do anything with my mods on steam. If you need any help or have a request, please write on discord or on github (even if you already requested in workshop comments because I currently have no means of communication on steam at all). **
 
-Please suggest new bodyparts, lore friendly descriptions and balance changes to https://discord.gg/dcVj4b5VwJ
-You can see all stats at https://docs.google.com/spreadsheets/d/1C8ZUiiHN1A1GNPjtF2BRTq81zq1cR2Mhpywnnn6uxx8/edit?usp=sharing
+**I might continue updating the mods on github but I will focus on what I personally want in my game because most people probably won't see this and therefore won't be aware of the updates. **
 
-*All current descriptions and stats are placeholder because despite having 1500 hours I have no idea how stats work, and descriptions I wrote are just stupid.
+**If anyone wants to reupload the mods on steam, please do.**
 
-1.2 mod that makes all vanilla archotech bionics have 200% efficiency, increases their cost accordingly, and adds a lot of new very rare and expensive archotech bionics with various stat boosts.
-
-Vanilla archotech is underwhelming especially if you have mods that add craftable bionics that is better than 150% efficiency, like prostheses+ (which I highly recommend). This mod buffs archotech to be 200% efficiency, and makes it two times more expensive to account for that. It adds new archotech bionics for all bodyparts, plus variations. There are currently 39 archotech bodyparts in this mod.
-
-Tiers of bionics added:
-- Common archotech bionics for all bodyparts, they have 200% efficiency and no stat boosts. Rarity is set to RewardStandardHighFreq.
-- Special archotech bionics for most bodyparts, they have 200% efficiency and additional stat boost. There are multiply different types of special bionics for each body part with different stat boosts. I made those additional rare varied bionics so that when you find an archotech bodypart, it always gives you an unique advantage. Rarity is set to RewardStandardMidFreq.
-- Advanced archotech, which is even extremely rare and very expensive, but has 300% efficiency for limbs and 400% for organs, gives a combination of stat boosts of all special tier implants of that body part, and the stat boost is increased.  Rarity is set to RewardStandardLowFreq.
-- transcendent bodyparts. I made them as hard to acquire as possible. Their cost is set very high so they will start spawning only in extreme end game and gathering enough silver to buy them is an enormous grind even with OP mods (3 million silver). Their weight is set to be 20000 kg, you need an enormous caravan capacity if you manage to find it on a quest. Obviously they give enormous stat boosts. Rarity is set to RewardStandardLowFreq.
+Vanilla archotech is underwhelming especially if you have mods that add craftable bionics with higher than 150% efficiency, like prostheses+ (which I highly recommend). This mod buffs vanilla archotech to be 200% efficiency, and makes it more expensive to account for that. It adds new archotech bionics for all bodyparts, plus variations. There are currently 39 archotech bodyparts in this mod.
 
 All new archotech bionics are acquired the same way vanilla archotech are acquired - from quests, traders or ancient dangers.
 
-This mod only adds new prosthetics and replaces the vanilla archotech prothsetics xml with the same one but 200% efficiency instead of 150 for all bodyparts. It will be compatible with any other mod.
+Google Sheets - https://docs.google.com/spreadsheets/d/1C8ZUiiHN1A1GNPjtF2BRTq81zq1cR2Mhpywnnn6uxx8/edit?usp=sharing
+Discord - https://discord.gg/dcVj4b5VwJ
+STEAM (I am banned on steam so can't update the mod) https://steamcommunity.com/sharedfiles/filedetails/?id=2488754345
+
+# Content
+Common archotech. 200% efficiency and no additional stat boosts. Available for all body parts.
+Special archotech. 200% efficiency and additional stat boost. There are multiply different types of special bionics for each body part with different stat boosts. Now when you find an archotech bodypart, it might gives you an unique stat boost advantage. Those are more rare than common archotech.
+Advanced archotech. 300% efficiency for limbs and 400% for organs, and major stat boosts. Very rare and very expensive.
+Transcendent bodyparts. Extremely powerful, extremely valuable and hard to acquire. To prevent getting them easily, they are very heavy and you will need a huge caravan if you manage to find them on a quest. I don't know if they will actually spawn, I've never seen one in my playthrough..
+
+# Compatibility/Bugs
+Supports Elite Bionics Framework
+This mod doesn't produce any errors in log
+Minor issue - if you have SOS2, you will have archotech parts from both this mod and SOS2. I currently don't know how to patch that, help would be appreciated
+
+# Notes
+This mod is purely XML
+I don't think I will make 150% efficiency version because it would be time consuming to maintain two versions
+I didn't test the stats extensively, so any balancing feedback would be helpful
+
+https://discord.gg/dcVj4b5VwJ
