@@ -19,19 +19,19 @@ Discord - https://discord.gg/dcVj4b5VwJ
 STEAM (I am banned on steam so can't update the mod) https://steamcommunity.com/sharedfiles/filedetails/?id=2488754345
 
 ## Content
-Common archotech. 200% efficiency and no additional stat boosts. Available for all body parts.
-Special archotech. 200% efficiency and additional stat boost. There are multiply different types of special bionics for each body part with different stat boosts. Now when you find an archotech bodypart, it might gives you an unique stat boost advantage. Those are more rare than common archotech.
-Advanced archotech. 300% efficiency for limbs and 400% for organs, and major stat boosts. Very rare and very expensive.
-Transcendent bodyparts. Extremely powerful, extremely valuable and hard to acquire. To prevent getting them easily, they are very heavy and you will need a huge caravan if you manage to find them on a quest. I don't know if they will actually spawn, I've never seen one in my playthrough..
+- Common archotech. 200% efficiency and no additional stat boosts. Available for all body parts.
+- Special archotech. 200% efficiency and additional stat boost. There are multiply different types of special bionics for each body part with different stat boosts. Now when you find an archotech bodypart, it might gives you an unique stat boost advantage. Those are more rare than common archotech.
+- Advanced archotech. 300% efficiency for limbs and 400% for organs, and major stat boosts. Very rare and very expensive.
+- Transcendent bodyparts. Extremely powerful, extremely valuable and hard to acquire. To prevent getting them easily, they are very heavy and you will need a huge caravan if you manage to find them on a quest.
 
 ## Compatibility/Bugs
-Supports Elite Bionics Framework
-This mod doesn't produce any errors in log
-Minor issue - if you have SOS2, you will have archotech parts from both this mod and SOS2. I currently don't know how to patch that, help would be appreciated
+- Supports Elite Bionics Framework
+- This mod doesn't produce any errors in log
+- Minor issue - if you have SOS2, you will have archotech parts from both this mod and SOS2. I currently don't know how to patch that, help would be appreciated
 
 ## Notes
-This mod is purely XML
-I don't think I will make 150% efficiency version because it would be time consuming to maintain two versions
-I didn't test the stats extensively, so any balancing feedback would be helpful
+- This mod is purely XML
+- I don't think I will make 150% efficiency version because it would be time consuming to maintain two versions
+- I didn't test the stats extensively, so any balancing feedback would be helpful
 
 https://discord.gg/dcVj4b5VwJ
