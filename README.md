@@ -1,10 +1,7 @@
 Press the green "Code" button at the top and "Download ZIP" to download the latest version
 
 ##### I am banned on steam community, so I can't do anything with my mods on steam. If you need any help or have a request, please write on discord or on github (even if you already requested in workshop comments because I currently have no means of communication on steam at all).
-
-##### I might continue updating the mods on github but I will focus on what I personally want in my game because most people probably won't see this and therefore won't be aware of the updates.
-
-##### If anyone wants to reupload the mods on steam, please do.
+##### Please note that steam versions of the mods are outdated as I can't update them.
 
 
 ## Description
