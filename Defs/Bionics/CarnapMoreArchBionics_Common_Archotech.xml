@@ -1,0 +1,1760 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- archotech spine -->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>Carnap_ArchotechSpine</defName>
+		<label>archotech spine</label>
+		<labelNoun>an archotech spine</labelNoun>
+		<description>An installed archotech spine.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechSpine</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>Carnap_ArchotechSpine</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.50</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>Carnap_ArchotechSpine</defName>
+		<label>archotech spine</label>
+		<description>An advanced artificial spine built by archotech. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallCarnap_ArchotechSpine</RecipeDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<MarketValue>4200</MarketValue>
+			<Mass>10</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallCarnap_ArchotechSpine</defName>
+		<label>install archotech spine</label>
+		<description>Install an archotech spine.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechSpine</ThingDef>
+			<HediffDef>Carnap_ArchotechSpine</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing archotech spine.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Carnap_ArchotechSpine</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Carnap_ArchotechSpine</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Spine</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Carnap_ArchotechSpine</addsHediff>
+	</RecipeDef>
+    
+    
+	<!-- archotech heart -->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>Carnap_ArchotechHeart</defName>
+		<label>archotech heart</label>
+		<labelNoun>an archotech heart</labelNoun>
+		<description>An installed archotech heart.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechHeart</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>Carnap_ArchotechHeart</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<!-- Efficiency -->
+			<partEfficiency>1.50</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>Carnap_ArchotechHeart</defName>
+		<label>archotech heart</label>
+		<!-- Description -->
+		<description>An advanced artificial heart built by archotech. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallCarnap_ArchotechHeart</RecipeDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<!-- Cost, mass, reward (RewardStandardHighFreq; RewardStandardMidFreq; RewardStandardLowFreq) -->
+			<MarketValue>2800</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallCarnap_ArchotechHeart</defName>
+		<label>install archotech heart</label>
+		<description>Install an archotech heart.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechHeart</ThingDef>
+			<HediffDef>Carnap_ArchotechHeart</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing archotech heart.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Carnap_ArchotechHeart</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Carnap_ArchotechHeart</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Heart</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Carnap_ArchotechHeart</addsHediff>
+	</RecipeDef>
+    
+    
+	<!-- archotech stomach -->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>Carnap_ArchotechStomach</defName>
+		<label>archotech stomach</label>
+		<labelNoun>an archotech stomach</labelNoun>
+		<description>An installed archotech stomach.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechStomach</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>Carnap_ArchotechStomach</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<!-- Efficiency -->
+			<partEfficiency>1.5</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>Carnap_ArchotechStomach</defName>
+		<label>archotech stomach</label>
+		<!-- Description -->
+		<description>An advanced artificial stomach built by archotech. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallCarnap_ArchotechStomach</RecipeDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<!-- Cost, mass, reward (RewardStandardHighFreq; RewardStandardMidFreq; RewardStandardLowFreq) -->
+			<MarketValue>2800</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallCarnap_ArchotechStomach</defName>
+		<label>install archotech stomach</label>
+		<description>Install a archotech stomach.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechStomach</ThingDef>
+			<HediffDef>Carnap_ArchotechStomach</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing archotech stomach.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Carnap_ArchotechStomach</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Carnap_ArchotechStomach</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Stomach</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Carnap_ArchotechStomach</addsHediff>
+	</RecipeDef>
+    
+    
+	<!-- archotech kidney -->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>Carnap_ArchotechKidney</defName>
+		<label>archotech kidney</label>
+		<labelNoun>an archotech kidney</labelNoun>
+		<description>An installed archotech kidney.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechKidney</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>Carnap_ArchotechKidney</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<!-- Efficiency -->
+			<partEfficiency>1.50</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>Carnap_ArchotechKidney</defName>
+		<label>archotech kidney</label>
+		<!-- Description -->
+		<description>An advanced artificial kidney built by archotech. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallCarnap_ArchotechKidney</RecipeDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<!-- Cost, mass, reward (RewardStandardHighFreq; RewardStandardMidFreq; RewardStandardLowFreq) -->
+			<MarketValue>2800</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallCarnap_ArchotechKidney</defName>
+		<label>install archotech kidney</label>
+		<description>Install an archotech kidney.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechKidney</ThingDef>
+			<HediffDef>Carnap_ArchotechKidney</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing archotech kidney.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Carnap_ArchotechKidney</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Carnap_ArchotechKidney</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Kidney</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Carnap_ArchotechKidney</addsHediff>
+	</RecipeDef>
+    
+    
+	<!-- archotech liver -->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>Carnap_ArchotechLiver</defName>
+		<label>archotech liver</label>
+		<labelNoun>an archotech liver</labelNoun>
+		<description>An installed archotech liver.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechLiver</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>Carnap_ArchotechLiver</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<!-- Efficiency -->
+			<partEfficiency>1.50</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>Carnap_ArchotechLiver</defName>
+		<label>archotech liver</label>
+		<!-- Description -->
+		<description>An advanced artificial liver built by archotech. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallCarnap_ArchotechLiver</RecipeDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<!-- Cost, mass, reward (RewardStandardHighFreq; RewardStandardMidFreq; RewardStandardLowFreq) -->
+			<MarketValue>2800</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallCarnap_ArchotechLiver</defName>
+		<label>install archotech liver</label>
+		<description>Install an archotech liver.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechLiver</ThingDef>
+			<HediffDef>Carnap_ArchotechLiver</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing archotech liver.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Carnap_ArchotechLiver</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Carnap_ArchotechLiver</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Liver</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Carnap_ArchotechLiver</addsHediff>
+	</RecipeDef>
+    
+    
+	<!-- archotech lung -->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>Carnap_ArchotechLung</defName>
+		<label>archotech lung</label>
+		<labelNoun>an archotech lung</labelNoun>
+		<description>An installed archotech lung.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechLung</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>Carnap_ArchotechLung</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<!-- Efficiency -->
+			<partEfficiency>1.50</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>Carnap_ArchotechLung</defName>
+		<label>archotech lung</label>
+		<!-- Description -->
+		<description>An advanced artificial lung built by archotech. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallCarnap_ArchotechLung</RecipeDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<!-- Cost, mass, reward (RewardStandardHighFreq; RewardStandardMidFreq; RewardStandardLowFreq) -->
+			<MarketValue>2800</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallCarnap_ArchotechLung</defName>
+		<label>install archotech lung</label>
+		<description>Install an archotech lung.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechLung</ThingDef>
+			<HediffDef>Carnap_ArchotechLung</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing archotech lung.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Carnap_ArchotechLung</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Carnap_ArchotechLung</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Lung</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Carnap_ArchotechLung</addsHediff>
+	</RecipeDef>
+    
+    
+	<!-- archotech jaw -->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>Carnap_ArchotechJaw</defName>
+		<label>archotech jaw</label>
+		<labelNoun>an archotech jaw</labelNoun>
+		<description>An installed archotech jaw.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechJaw</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>Carnap_ArchotechJaw</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<!-- Efficiency -->
+			<partEfficiency>1.50</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>Carnap_ArchotechJaw</defName>
+		<label>archotech jaw</label>
+		<!-- Description -->
+		<description>An advanced artificial jaw built by archotech. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallCarnap_ArchotechJaw</RecipeDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<!-- Cost, mass, reward (RewardStandardHighFreq; RewardStandardMidFreq; RewardStandardLowFreq) -->
+			<MarketValue>2800</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallCarnap_ArchotechJaw</defName>
+		<label>install archotech jaw</label>
+		<description>Install an archotech jaw.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechJaw</ThingDef>
+			<HediffDef>Carnap_ArchotechJaw</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing archotech jaw.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Carnap_ArchotechJaw</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Carnap_ArchotechJaw</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<!-- Fix capitalization -->
+			<li>Jaw</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Carnap_ArchotechJaw</addsHediff>
+	</RecipeDef>
+    
+    
+	<!-- archotech Brain -->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>Carnap_ArchotechBrain</defName>
+		<label>archotech brain</label>
+		<labelNoun>an archotech brain</labelNoun>
+		<description>An installed archotech brain.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechBrain</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>Carnap_ArchotechBrain</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<!-- Efficiency -->
+			<partEfficiency>1.50</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>Carnap_ArchotechBrain</defName>
+		<label>archotech brain</label>
+		<!-- Description -->
+		<description>An advanced artificial brain built by archotech. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallCarnap_ArchotechBrain</RecipeDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<!-- Cost, mass, reward (RewardStandardHighFreq; RewardStandardMidFreq; RewardStandardLowFreq) -->
+			<MarketValue>11200</MarketValue>
+			<Mass>5</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallCarnap_ArchotechBrain</defName>
+		<label>install archotech brain</label>
+		<description>Install an archotech brain.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechBrain</ThingDef>
+			<HediffDef>Carnap_ArchotechBrain</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing archotech brain.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Carnap_ArchotechBrain</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Carnap_ArchotechBrain</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<!-- Fix capitalization -->
+			<li>Brain</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Carnap_ArchotechBrain</addsHediff>
+	</RecipeDef>
+    
+    
+	<!-- archotech Ear -->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>Carnap_ArchotechEar</defName>
+		<label>archotech ear</label>
+		<labelNoun>an archotech ear</labelNoun>
+		<description>An installed archotech ear.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechEar</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>Carnap_ArchotechEar</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<!-- Efficiency -->
+			<partEfficiency>1.50</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>Carnap_ArchotechEar</defName>
+		<label>archotech ear</label>
+		<!-- Description -->
+		<description>An advanced artificial ear built by archotech. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallCarnap_ArchotechEar</RecipeDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<!-- Cost, mass, reward (RewardStandardHighFreq; RewardStandardMidFreq; RewardStandardLowFreq) -->
+			<MarketValue>2800</MarketValue>
+			<Mass>1</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallCarnap_ArchotechEar</defName>
+		<label>install archotech ear</label>
+		<description>Install an archotech ear.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechEar</ThingDef>
+			<HediffDef>Carnap_ArchotechEar</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing archotech ear.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Carnap_ArchotechEar</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Carnap_ArchotechEar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<!-- Fix capitalization -->
+			<li>Ear</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Carnap_ArchotechEar</addsHediff>
+	</RecipeDef>
+    
+    
+	<!-- variations -->
+    
+    
+	<!-- Archotech nose -->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>Carnap_ArchotechNose</defName>
+		<label>archotech nose</label>
+		<labelNoun>an archotech nose</labelNoun>
+		<description>An installed archotech nose.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechNose</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>Carnap_ArchotechNose</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<!-- Efficiency -->
+			<partEfficiency>1.50</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>0.25</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>Carnap_ArchotechNose</defName>
+		<label>archotech nose</label>
+		<!-- Description -->
+		<description>An advanced artificial nose built by archotech. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallCarnap_ArchotechNose</RecipeDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<!-- Cost, mass, reward (RewardStandardHighFreq; RewardStandardMidFreq; RewardStandardLowFreq) -->
+			<MarketValue>2800</MarketValue>
+			<Mass>1</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallCarnap_ArchotechNose</defName>
+		<label>install archotech nose</label>
+		<description>Install an archotech nose.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechNose</ThingDef>
+			<HediffDef>Carnap_ArchotechNose</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing archotech nose.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Carnap_ArchotechNose</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Carnap_ArchotechNose</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<!-- Fix capitalization -->
+			<li>Nose</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Carnap_ArchotechNose</addsHediff>
+	</RecipeDef>
+    
+    
+	<!-- Archotech pelvis -->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>Carnap_ArchotechPelvis</defName>
+		<label>archotech pelvis</label>
+		<labelNoun>an archotech pelvis</labelNoun>
+		<description>An installed archotech pelvis.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechPelvis</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>Carnap_ArchotechPelvis</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<!-- Efficiency -->
+			<partEfficiency>1.50</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.25</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>Carnap_ArchotechPelvis</defName>
+		<label>archotech pelvis</label>
+		<!-- Description -->
+		<description>An advanced artificial pelvis built by archotech. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallCarnap_ArchotechPelvis</RecipeDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<!-- Cost, mass, reward (RewardStandardHighFreq; RewardStandardMidFreq; RewardStandardLowFreq) -->
+			<MarketValue>2800</MarketValue>
+			<Mass>6</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallCarnap_ArchotechPelvis</defName>
+		<label>install archotech pelvis</label>
+		<description>Install an archotech pelvis.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechPelvis</ThingDef>
+			<HediffDef>Carnap_ArchotechPelvis</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing archotech pelvis.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Carnap_ArchotechPelvis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Carnap_ArchotechPelvis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<!-- Fix capitalization -->
+			<li>Pelvis</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Carnap_ArchotechPelvis</addsHediff>
+	</RecipeDef>
+    
+    
+	<!-- Archotech rib -->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>Carnap_ArchotechRib</defName>
+		<label>archotech rib</label>
+		<labelNoun>an archotech rib</labelNoun>
+		<description>An installed archotech rib.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechRib</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>Carnap_ArchotechRib</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<!-- Efficiency -->
+			<partEfficiency>1.50</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+					<ArmorRating_Heat>0.2</ArmorRating_Heat>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>Carnap_ArchotechRib</defName>
+		<label>archotech rib</label>
+		<!-- Description -->
+		<description>An advanced artificial rib built by archotech. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallCarnap_ArchotechRib</RecipeDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<!-- Cost, mass, reward (RewardStandardHighFreq; RewardStandardMidFreq; RewardStandardLowFreq) -->
+			<MarketValue>2800</MarketValue>
+			<Mass>1</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallCarnap_ArchotechRib</defName>
+		<label>install archotech rib</label>
+		<description>Install an archotech rib.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechRib</ThingDef>
+			<HediffDef>Carnap_ArchotechRib</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing archotech rib.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Carnap_ArchotechRib</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Carnap_ArchotechRib</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<!-- Fix capitalization -->
+			<li>Ribcage</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Carnap_ArchotechRib</addsHediff>
+	</RecipeDef>
+    
+    
+	<!-- Archotech sternum -->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>Carnap_ArchotechSternum</defName>
+		<label>archotech sternum</label>
+		<labelNoun>an archotech sternum</labelNoun>
+		<description>An installed archotech sternum.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechSternum</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>Carnap_ArchotechSternum</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<!-- Efficiency -->
+			<partEfficiency>1.50</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+					<ArmorRating_Heat>0.5</ArmorRating_Heat>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>Carnap_ArchotechSternum</defName>
+		<label>archotech sternum</label>
+		<!-- Description -->
+		<description>An advanced artificial sternum built by archotech. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallCarnap_ArchotechSternum</RecipeDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<!-- Cost, mass, reward (RewardStandardHighFreq; RewardStandardMidFreq; RewardStandardLowFreq) -->
+			<MarketValue>2800</MarketValue>
+			<Mass>9</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallCarnap_ArchotechSternum</defName>
+		<label>install archotech sternum</label>
+		<description>Install an archotech sternum.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechSternum</ThingDef>
+			<HediffDef>Carnap_ArchotechSternum</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing archotech sternum.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Carnap_ArchotechSternum</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Carnap_ArchotechSternum</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<!-- Fix capitalization -->
+			<li>Sternum</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Carnap_ArchotechSternum</addsHediff>
+	</RecipeDef>
+    
+    
+	<!-- archotech strong spine -->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>Carnap_ArchotechStrongSpine</defName>
+		<label>archotech strong spine</label>
+		<labelNoun>an archotech strong spine</labelNoun>
+		<description>An installed archotech strong spine.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechStrongSpine</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>Carnap_ArchotechStrongSpine</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.50</partEfficiency>
+			<!-- <betterThanNatural>true</betterThanNatural> -->
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<CarryingCapacity>125</CarryingCapacity>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>Carnap_ArchotechStrongSpine</defName>
+		<label>archotech strong spine</label>
+		<description>An advanced artificial spine built by archotech. It is incredibly strong and is optimized for carrying very heavy objects. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallCarnap_ArchotechStrongSpine</RecipeDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<MarketValue>5600</MarketValue>
+			<Mass>20</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallCarnap_ArchotechStrongSpine</defName>
+		<label>install archotech strong spine</label>
+		<description>Install an archotech strong spine.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechStrongSpine</ThingDef>
+			<HediffDef>Carnap_ArchotechStrongSpine</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing archotech spine.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Carnap_ArchotechStrongSpine</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Carnap_ArchotechStrongSpine</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Spine</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Carnap_ArchotechStrongSpine</addsHediff>
+	</RecipeDef>
+    
+    
+	<!-- Archotech Agile Spine -->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>Carnap_ArchotechflexibleSpine</defName>
+		<label>archotech flexible spine</label>
+		<labelNoun>an archotech flexible spine</labelNoun>
+		<description>An installed archotech flexible spine.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechflexibleSpine</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>Carnap_ArchotechflexibleSpine</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.50</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeDodgeChance>10</MeleeDodgeChance>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>Carnap_ArchotechflexibleSpine</defName>
+		<label>archotech flexible spine</label>
+		<description>An advanced artificial spine built by archotech. It is incredibly flexible and allows for very complex movements. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallCarnap_ArchotechflexibleSpine</RecipeDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<MarketValue>5600</MarketValue>
+			<Mass>8</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallCarnap_ArchotechflexibleSpine</defName>
+		<label>install archotech flexible spine</label>
+		<description>Install an archotech flexible spine.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechflexibleSpine</ThingDef>
+			<HediffDef>Carnap_ArchotechflexibleSpine</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing archotech spine.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Carnap_ArchotechflexibleSpine</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Carnap_ArchotechflexibleSpine</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Spine</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Carnap_ArchotechflexibleSpine</addsHediff>
+	</RecipeDef>
+    
+    
+	<!-- archotech filter lung -->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>Carnap_ArchotechFilterLung</defName>
+		<label>archotech filter lung</label>
+		<labelNoun>an archotech filter lung</labelNoun>
+		<description>An installed archotech filter lung.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechFilterLung</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>Carnap_ArchotechFilterLung</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<!-- Efficiency -->
+			<partEfficiency>1.50</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ToxicSensitivity>-0.75</ToxicSensitivity>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>Carnap_ArchotechFilterLung</defName>
+		<label>archotech filter lung</label>
+		<!-- Description -->
+		<description>An advanced artificial lung built by archotech. It filters toxins from the air. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallCarnap_ArchotechFilterLung</RecipeDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<!-- Cost, mass, reward (RewardStandardHighFreq; RewardStandardMidFreq; RewardStandardLowFreq) -->
+			<MarketValue>5600</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallCarnap_ArchotechFilterLung</defName>
+		<label>install archotech filter lung</label>
+		<description>Install an archotech filter lung.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechFilterLung</ThingDef>
+			<HediffDef>Carnap_ArchotechFilterLung</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing archotech filter lung.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Carnap_ArchotechFilterLung</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Carnap_ArchotechFilterLung</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Lung</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Carnap_ArchotechFilterLung</addsHediff>
+	</RecipeDef>
+    
+    
+	<!-- archotech detoxifier stomach -->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>Carnap_ArchotechDetoxifierStomach</defName>
+		<label>archotech detoxifier stomach</label>
+		<labelNoun>an archotech detoxifier stomach</labelNoun>
+		<description>An installed archotech detoxifier stomach.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechDetoxifierStomach</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>Carnap_ArchotechDetoxifierStomach</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<!-- Efficiency -->
+			<partEfficiency>1.50</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+			</li>
+		</stages>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>Carnap_ArchotechDetoxifierStomach</defName>
+		<label>archotech detoxifier stomach</label>
+		<!-- Description -->
+		<description>An advanced artificial stomach built by archotech. It allows the user to eat almost anything without ever worrying about food poisoning. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallCarnap_ArchotechDetoxifierStomach</RecipeDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<!-- Cost, mass, reward (RewardStandardHighFreq; RewardStandardMidFreq; RewardStandardLowFreq) -->
+			<MarketValue>5600</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallCarnap_ArchotechDetoxifierStomach</defName>
+		<label>install archotech detoxifier stomach</label>
+		<description>Install an archotech detoxifier stomach.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechDetoxifierStomach</ThingDef>
+			<HediffDef>Carnap_ArchotechDetoxifierStomach</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing archotech detoxifier stomach.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Carnap_ArchotechDetoxifierStomach</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Carnap_ArchotechDetoxifierStomach</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Stomach</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Carnap_ArchotechDetoxifierStomach</addsHediff>
+	</RecipeDef>
+    
+    
+    
+    <!-- archotech reprocessor stomach -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>Carnap_ArchotechReprocessorStomach</defName>
+    <label>archotech reprocessor stomach</label>
+    <labelNoun>an archotech reprocessor stomach</labelNoun>
+    <description>An installed archotech reprocessor stomach.</description>
+    <descriptionHyperlinks><ThingDef>Carnap_ArchotechReprocessorStomach</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>Carnap_ArchotechReprocessorStomach</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.5</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+    <stages>
+      <li>
+        <hungerRateFactor>0.5</hungerRateFactor>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <ThingDef ParentName="BodyPartBionicImperialBase">
+    <defName>Carnap_ArchotechReprocessorStomach</defName>
+    <label>archotech reprocessor stomach</label>
+    <description>An advanced artificial stomach built by archotech. An advanced molecular processing system extracts energy from nutrients the body could normally never use, leading to significantly increased efficiency. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+    <statBases>
+			<!-- Cost, mass, reward (RewardStandardHighFreq; RewardStandardMidFreq; RewardStandardLowFreq) -->
+			<MarketValue>5600</MarketValue>
+			<Mass>2</Mass>
+    </statBases>
+    <descriptionHyperlinks><RecipeDef>InstallCarnap_ArchotechReprocessorStomach</RecipeDef></descriptionHyperlinks>
+    <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>InstallCarnap_ArchotechReprocessorStomach</defName>
+    <label>install archotech reprocessor stomach</label>
+    <description>Install an archotech reprocessor stomach.</description>
+    <descriptionHyperlinks>
+      <ThingDef>Carnap_ArchotechReprocessorStomach</ThingDef>
+      <HediffDef>Carnap_ArchotechReprocessorStomach</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing archotech reprocessor stomach.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Carnap_ArchotechReprocessorStomach</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Carnap_ArchotechReprocessorStomach</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Stomach</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>Carnap_ArchotechReprocessorStomach</addsHediff>
+  </RecipeDef>
+
+  
+  <!-- sajhdnigsiauuhuidhsiauhdisauhdiuashdiusahuisahdaiushdiusahdiusahdsiuadhsauhdsaiuhdaisudhsaiuddasihsaiudhsaiudhsaidh -->
+    
+	<!-- archotech filter kidney -->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>Carnap_ArchotechFilterKidney</defName>
+		<label>archotech filter kidney</label>
+		<labelNoun>an archotech filter kidney</labelNoun>
+		<description>An installed archotech filter kidney.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechFilterKidney</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>Carnap_ArchotechFilterKidney</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<!-- Efficiency -->
+			<partEfficiency>1.50</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ImmunityGainSpeed>0.25</ImmunityGainSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>Carnap_ArchotechFilterKidney</defName>
+		<label>archotech filter kidney</label>
+		<!-- Description -->
+		<description>An advanced artificial kidney built by archotech. It filters the blood, allowing faster recovery from illnesses. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallCarnap_ArchotechFilterKidney</RecipeDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<!-- Cost, mass, reward (RewardStandardHighFreq; RewardStandardMidFreq; RewardStandardLowFreq) -->
+			<MarketValue>5600</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallCarnap_ArchotechFilterKidney</defName>
+		<label>install archotech filter kidney</label>
+		<description>Install an archotech filter kidney.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechFilterKidney</ThingDef>
+			<HediffDef>Carnap_ArchotechFilterKidney</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing archotech filter kidney.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Carnap_ArchotechFilterKidney</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Carnap_ArchotechFilterKidney</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Kidney</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Carnap_ArchotechFilterKidney</addsHediff>
+	</RecipeDef>
+    
+    
+	<!-- Archotech Slow Heart -->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>Carnap_ArchotechSlowHeart</defName>
+		<label>archotech slow heart</label>
+		<labelNoun>an archotech heart</labelNoun>
+		<description>An installed archotech slow heart.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechSlowHeart</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>Carnap_ArchotechSlowHeart</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<!-- Efficiency -->
+			<partEfficiency>1.50</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<totalBleedFactor>0.3</totalBleedFactor>
+			</li>
+		</stages>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>Carnap_ArchotechSlowHeart</defName>
+		<label>archotech slow heart</label>
+		<!-- Description -->
+		<description>An advanced artificial heart built by archotech. It significantly slows down the blood flow while keeping the user healthy by manipulating the blood propagation, reducing stress on the vessels and bleeding rate. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallCarnap_ArchotechSlowHeart</RecipeDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<!-- Cost, mass, reward (RewardStandardHighFreq; RewardStandardMidFreq; RewardStandardLowFreq) -->
+			<MarketValue>9900</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallCarnap_ArchotechSlowHeart</defName>
+		<label>install archotech slow heart</label>
+		<description>Install an archotech slow heart.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechSlowHeart</ThingDef>
+			<HediffDef>Carnap_ArchotechSlowHeart</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing archotech slow heart.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Carnap_ArchotechSlowHeart</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Carnap_ArchotechSlowHeart</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Heart</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Carnap_ArchotechSlowHeart</addsHediff>
+	</RecipeDef>
+    
+    
+	<!-- Archotech painkiller rib -->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>Carnap_ArchotechPainkillerRib</defName>
+		<label>archotech painkiller rib</label>
+		<labelNoun>an archotech rib</labelNoun>
+		<description>An installed archotech painkiller rib.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechPainkillerRib</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>Carnap_ArchotechPainkillerRib</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<!-- Efficiency -->
+			<partEfficiency>1.50</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<painFactor>0.3</painFactor>
+			</li>
+		</stages>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>Carnap_ArchotechPainkillerRib</defName>
+		<label>archotech painkiller rib</label>
+		<!-- Description -->
+		<description>An advanced artificial rib built by archotech. It can release a very effective painkiller that has no side effects. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallCarnap_ArchotechPainkillerRib</RecipeDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<!-- Cost, mass, reward (RewardStandardHighFreq; RewardStandardMidFreq; RewardStandardLowFreq) -->
+			<MarketValue>9800</MarketValue>
+			<Mass>1</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallCarnap_ArchotechPainkillerRib</defName>
+		<label>install archotech painkiller rib</label>
+		<description>Install an archotech painkiller rib.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechPainkillerRib</ThingDef>
+			<HediffDef>Carnap_ArchotechPainkillerRib</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing archotech painkiller rib.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Carnap_ArchotechPainkillerRib</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Carnap_ArchotechPainkillerRib</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<!-- Fix capitalization -->
+			<li>Ribcage</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Carnap_ArchotechPainkillerRib</addsHediff>
+	</RecipeDef>
+    
+    
+	<!-- archotech immunized liver -->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>Carnap_ArchotechImmunizedLiver</defName>
+		<label>archotech immunized liver</label>
+		<labelNoun>an archotech liver</labelNoun>
+		<description>An installed archotech immunized liver.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechImmunizedLiver</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>Carnap_ArchotechImmunizedLiver</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<!-- Efficiency -->
+			<partEfficiency>1.50</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ImmunityGainSpeed>1.0</ImmunityGainSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>Carnap_ArchotechImmunizedLiver</defName>
+		<label>archotech immunized liver</label>
+		<!-- Description -->
+		<description>An advanced artificial liver built by archotech. It resists infections by scanning the blood for harmful bacteria and removing them, and makes additional factors that significantly enchance the immunity gain speed. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallCarnap_ArchotechImmunizedLiver</RecipeDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<!-- Cost, mass, reward (RewardStandardHighFreq; RewardStandardMidFreq; RewardStandardLowFreq) -->
+			<MarketValue>11100</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallCarnap_ArchotechImmunizedLiver</defName>
+		<label>install archotech immunized liver</label>
+		<description>Install an archotech immunized liver.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechImmunizedLiver</ThingDef>
+			<HediffDef>Carnap_ArchotechImmunizedLiver</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing archotech immunized liver.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Carnap_ArchotechImmunizedLiver</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Carnap_ArchotechImmunizedLiver</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Liver</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Carnap_ArchotechImmunizedLiver</addsHediff>
+	</RecipeDef>
+    
+    
+	<!-- archotech analyzer ear -->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>Carnap_ArchotechAnalyzerEar</defName>
+		<label>archotech analyzer ear</label>
+		<labelNoun>an archotech ear</labelNoun>
+		<description>An installed archotech analyzer ear.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechAnalyzerEar</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>Carnap_ArchotechAnalyzerEar</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<!-- Efficiency -->
+			<partEfficiency>1.50</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<SocialImpact>0.45</SocialImpact>
+					<TradePriceImprovement>0.45</TradePriceImprovement>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>Carnap_ArchotechAnalyzerEar</defName>
+		<label>archotech analyzer ear</label>
+		<!-- Description -->
+		<description>An advanced artificial ear built by archotech. It contains an internal subpersona AI which helps analyze even hidden emotions in the voice and suggests the best behaviour pattern and properties of speech. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallCarnap_ArchotechAnalyzerEar</RecipeDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<!-- Cost, mass, reward (RewardStandardHighFreq; RewardStandardMidFreq; RewardStandardLowFreq) -->
+			<MarketValue>10400</MarketValue>
+			<Mass>1</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallCarnap_ArchotechAnalyzerEar</defName>
+		<label>install archotech analyzer ear</label>
+		<description>Install an archotech analyzer ear.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechAnalyzerEar</ThingDef>
+			<HediffDef>Carnap_ArchotechAnalyzerEar</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing archotech analyzer ear.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Carnap_ArchotechAnalyzerEar</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Carnap_ArchotechAnalyzerEar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<!-- Fix capitalization -->
+			<li>Ear</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Carnap_ArchotechAnalyzerEar</addsHediff>
+	</RecipeDef>
+    
+    
+	<!-- archotech hypno jaw -->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>Carnap_ArchotechHypnoJaw</defName>
+		<label>archotech hypno jaw</label>
+		<labelNoun>an archotech jaw</labelNoun>
+		<description>An installed archotech hypno jaw.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechHypnoJaw</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>Carnap_ArchotechHypnoJaw</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<!-- Efficiency -->
+			<partEfficiency>1.50</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<SocialImpact>0.5</SocialImpact>
+					<TradePriceImprovement>0.5</TradePriceImprovement>
+					<TameAnimalChance>0.5</TameAnimalChance>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>Carnap_ArchotechHypnoJaw</defName>
+		<label>archotech hypno jaw</label>
+		<!-- Description -->
+		<description>An advanced artificial jaw built by archotech. It can generate any sound the user wants, and it can also generate an incredibly fine sound wave adjusted for neural network of the receiver, no matter if it is pawn or an animal, which makes the receiver more agreeable. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallCarnap_ArchotechHypnoJaw</RecipeDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<!-- Cost, mass, reward (RewardStandardHighFreq; RewardStandardMidFreq; RewardStandardLowFreq) -->
+			<MarketValue>14500</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallCarnap_ArchotechHypnoJaw</defName>
+		<label>install archotech hypno jaw</label>
+		<description>Install an archotech hypno jaw.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechHypnoJaw</ThingDef>
+			<HediffDef>Carnap_ArchotechHypnoJaw</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing archotech hypno jaw.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Carnap_ArchotechHypnoJaw</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Carnap_ArchotechHypnoJaw</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<!-- Fix capitalization -->
+			<li>Jaw</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Carnap_ArchotechHypnoJaw</addsHediff>
+	</RecipeDef>
+    
+    
+	<!-- archotech medical arm -->
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>Carnap_ArchotechMedicalArm</defName>
+		<label>archotech medical arm</label>
+		<labelNoun>an archotech medical arm</labelNoun>
+		<description>An installed archotech medical arm.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechMedicalArm</ThingDef>
+		</descriptionHyperlinks>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>fist</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>14</power>
+						<cooldownTime>2</cooldownTime>
+						<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+						<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>Carnap_ArchotechMedicalArm</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.50</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MedicalTendSpeed>+2.0</MedicalTendSpeed>
+					<MedicalTendQuality>+1.0</MedicalTendQuality>
+					<MedicalSurgerySuccessChance>+10.0</MedicalSurgerySuccessChance>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>Carnap_ArchotechMedicalArm</defName>
+		<label>archotech medical arm</label>
+		<description>An artifical arm built by an archotech. It is equipped with an internal neural network that optimizes medical operations. It is almost impossible to fail a medical operation with this arm. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>InstallCarnap_ArchotechMedicalArm</RecipeDef>
+		</descriptionHyperlinks>
+		<statBases>
+			<MarketValue>15600</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallCarnap_ArchotechMedicalArm</defName>
+		<label>install archotech medical arm</label>
+		<description>Install an archotech medical arm.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Carnap_ArchotechMedicalArm</ThingDef>
+			<HediffDef>Carnap_ArchotechMedicalArm</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing archotech medical arm.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Carnap_ArchotechMedicalArm</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Carnap_ArchotechMedicalArm</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Shoulder</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Carnap_ArchotechMedicalArm</addsHediff>
+	</RecipeDef>
+	<!-- Effects -->
+</Defs>
