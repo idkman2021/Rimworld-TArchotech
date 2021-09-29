@@ -9,11 +9,7 @@ Adds archotech prostheses for all body parts and multiple variations of each arc
 
 All new archotech bionics are acquired the same way vanilla archotech are acquired - from quests, traders or ancient dangers.
 
-outdated Google Sheets - https://docs.google.com/spreadsheets/d/1C8ZUiiHN1A1GNPjtF2BRTq81zq1cR2Mhpywnnn6uxx8/edit?usp=sharing
-
 Discord - https://discord.gg/dcVj4b5VwJ
-
-STEAM (I am banned on steam so can't update the mod) https://steamcommunity.com/sharedfiles/filedetails/?id=2488754345
 
 ## Content
 tbd
