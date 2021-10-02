@@ -1191,7 +1191,7 @@
     </stages>
   </HediffDef>
 
-  <ThingDef ParentName="BodyPartBionicImperialBase">
+  <ThingDef ParentName="BodyPartArchotechBase">
     <defName>Carnap_ArchotechReprocessorStomach</defName>
     <label>archotech reprocessor stomach</label>
     <description>An advanced artificial stomach built by archotech. An advanced molecular processing system extracts energy from nutrients the body could normally never use, leading to significantly increased efficiency. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
