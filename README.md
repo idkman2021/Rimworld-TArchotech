@@ -14,7 +14,7 @@ Discord - https://discord.gg/dcVj4b5VwJ
 ## Content
 tbd
 ## Compatibility/Bugs
-- Supports Elite Bionics Framework (TBD)
+- currently doesn't support Elite Bionics Framework (TBD)
 - This mod doesn't produce any errors in log
 - 
 ## Notes
