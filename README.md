@@ -13,11 +13,12 @@ Discord - https://discord.gg/dcVj4b5VwJ
 
 ## Content
 tbd
+
 ## Compatibility/Bugs
 - currently doesn't support Elite Bionics Framework (TBD)
-- This mod doesn't produce any errors in log
-- 
+
 ## Notes
-- This mod is purely XML
+- Untested
+- tbd
 
 https://discord.gg/dcVj4b5VwJ
